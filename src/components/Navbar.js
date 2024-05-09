@@ -5,7 +5,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-dark bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
               NewsApp
@@ -28,11 +28,11 @@ export default class Navbar extends Component {
                     Home
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" to="/about">
                     About
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/entertainment">
                     entertainment
